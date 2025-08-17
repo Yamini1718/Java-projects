@@ -23,8 +23,8 @@ public class Lab6
 		driver.findElement(By.xpath("//*[@id=\"top-links\"]/ul/li[2]/a ")).click();
 		 driver.findElement(By.linkText("Login")).click();
 		
-		driver.findElement(By.id("input-email")).sendKeys("aditya234@gmail.com");
-		driver.findElement(By.id("input-password")).sendKeys("Aditya@123");		
+		driver.findElement(By.id("input-email")).sendKeys("yaminimanchupilli@gmail.com");
+		driver.findElement(By.id("input-password")).sendKeys("Yamini@17");		
 		driver.findElement(By.xpath("//input[@value='Login']")).click();
 		
 			Thread.sleep(3000);
@@ -71,4 +71,5 @@ public class Lab6
 		
 	}
 	
+
 }
